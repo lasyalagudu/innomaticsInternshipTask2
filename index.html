@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <div class="image-container">
+            <img src="https://preview.colorlib.com/theme/bootstrap/login-form-07/images/undraw_remotely_2j6y.svg" alt="Company Logo or Placeholder Image">
+        </div>
+        <div class="form-container">
+            <h1 style="color: rgb(22, 78, 168);font-size: 30px;">Company Directory Portal</h1>
+            <h3>Employee Registration Form</h3>
+            <br>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter full name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address">
+
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                    <option value="it">IT</option>
+                    <option value="hr">HR</option>
+                    <option value="sales">Sales</option>
+                </select>
+
+                <label for="employeeId">Employee ID:</label>
+                <input type="text" id="employeeId" name="employeeId" placeholder="Enter employee ID">
+
+                <label for="profileUrl">Profile Picture URL:</label>
+                <input type="url" id="profileUrl" name="profileUrl" placeholder="Enter profile picture URL">
+
+                <button type="submit">Register Employee</button>
+            </form>
+        </div>
+
+        
+    </section>
+
+    <div class="container1">
+      <div class="card">
+          <h2>Employee List</h2>
+          <ol class="employee-list">
+              <li>John Doe - <a href="mailto:john@example.com">john@example.com</a></li>
+              <hr>
+              <pre>   </pre>
+              <li>Jane Smith - <a href="mailto:jane@example.com">jane@example.com</a></li>
+              <hr>
+          </ol>
+      </div>
+  </div>
+
+  <table class="employee-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Employee ID</th>
+            <th>Department</th>
+            <th>Profile Picture</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>12345</td>
+            <td>IT</td>
+            <td><div class="profile-picture">50 x 50</div></td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>67890</td>
+            <td>HR</td>
+            <td><div class="profile-picture">50 x 50</div></td>
+        </tr>
+    </tbody>
+</table>
+<div class="c1">
+    <h2>Company Location</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7615.70447747373!2d78.36383967565807!3d17.495836021161654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91b7fa7159bb%3A0xe8a477b7e9bcceea!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1695722516028!5m2!1sen!2sin" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+</body>
+</html>
